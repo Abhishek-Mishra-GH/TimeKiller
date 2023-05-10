@@ -41,6 +41,8 @@ body {
 }
 
 .next-meme-btn:hover {
+    position: fixed;
+    bottom: 0;
     color: gray;
     cursor: pointer;
 }
