@@ -54,7 +54,7 @@ body {
 }
 
 .nav-right {
-    width: 35vw;
+    width: 55vw;
     height: 5vh;
 }
 
@@ -66,7 +66,7 @@ body {
     overflow: hidden;
     padding-left: 1vw;
     height: 4vh;
-    width: 25vw;
+    width: 35vw;
     background-color: white;
     color: black;
     margin-left: 3px;
