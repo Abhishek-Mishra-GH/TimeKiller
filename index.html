@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar flex-center">TimeKiller - Reddit Memes</nav>
+    <nav class="navbar flex-center-sb">
+        <p>TimeKiller</p>
+
+        <div class="nav-right flex-center-sa">
+
+            <div class="sr-container flex-center-sa">
+                <p>r/</p>
+                <div class="subreddit flex-center-v" id="subreddit" contenteditable>memes</div>
+            </div>
+
+            <div class="set flex-center" id="set-btn" onclick="set()">set</div>
+
+        </div>
+    </nav>
 
     <div class="container flex-center" id="container">
         <img src="#" alt="meme" id="meme-img">
