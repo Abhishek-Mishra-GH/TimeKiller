@@ -15,7 +15,8 @@ async function nextMeme() {
     nextMemeBtn.style.color = "white";
     setBtn.style.color = "white";
 
-    if(resp["code"] == 404) {
+    const rc = resp["code"];
+    if(rc == 404 || rc == 403) {
         alert("Please try something else, content not found!");
     }
 }
