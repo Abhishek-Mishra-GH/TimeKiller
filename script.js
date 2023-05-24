@@ -14,11 +14,15 @@ async function nextMeme() {
     memeImg.src = resp["url"];
     nextMemeBtn.style.color = "white";
     setBtn.style.color = "white";
+
+    if(resp["code"] == 404) {
+        alert("Please try something else, content not found!");
+    }
 }
 
 function set() {
     subreddit = '/';
-    subreddit += document.getElementById("subreddit").textContent.trim();
+    subreddit += document.getElementById("subreddit").textContent.replace(/\s/g, "");
     nextMeme();
     setBtn.style.color = "white";
 }
