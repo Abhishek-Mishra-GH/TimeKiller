@@ -70,13 +70,13 @@ body {
     background-color: white;
     color: black;
     margin-left: 3px;
+    margin-right: 3px;
 }
 
 .set {
     border: 2px solid white;
     height: 4vh;
-    width: 6vw;
-
+    width: 15vw;
 }
 
 .set:hover {
